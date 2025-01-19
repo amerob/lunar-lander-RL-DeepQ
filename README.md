@@ -56,6 +56,6 @@ To track the agent's performance during training, we plot the total points accum
 
 ![Episode vs Total Points](totalpoints.png)
 
-This graph demonstrates how the agent's performance evolves as it learns, with total points gradually increasing as the agent masters the environment.
+- This graph demonstrates how the agent's performance evolves as it learns, with total points gradually increasing as the agent masters the environment.
 
-![Trained Agent](Lunar_Lander.gif)
+> ![Trained Agent](Lunar_Lander.gif)
