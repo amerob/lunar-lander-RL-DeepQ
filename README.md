@@ -1,4 +1,4 @@
-# Lunar Lander AI using Deep Q-Learning & OpenAI Gym
+# Lunar Lander using Reinforcement Learning
 
 This repository contains the implementation of a Deep Q-Learning agent to solve the Lunar Lander environment from OpenAI Gym.
 
@@ -10,7 +10,6 @@ This repository contains the implementation of a Deep Q-Learning agent to solve 
 - [Usage](#usage)
 - [Results](#results)
 - [Episode vs Total Points](#episode-vs-total-points)
-- [Demo](#demo)
 
 ## Introduction
 
