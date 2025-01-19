@@ -1,6 +1,6 @@
-# Lunar Lander using Reinforcement Learning
+# Lunar Lander with Deep Q-Learning
 
-This repository contains the implementation of a Deep Q-Learning agent to solve the Lunar Lander environment from OpenAI Gym.
+This repository implements a Deep Q-Learning agent to solve the Lunar Lander environment from OpenAI Gym.
 
 ## Table of Contents
 
@@ -13,11 +13,9 @@ This repository contains the implementation of a Deep Q-Learning agent to solve 
 
 ## Introduction
 
-The Lunar Lander environment is a classic reinforcement learning problem where the objective is to safely land a spacecraft on the moon's surface. In this project, we use Deep Q-Learning to train an agent that learns optimal actions for successful landings.
+The goal is to train an agent to safely land a spacecraft on the moon using Deep Q-Learning.
 
 ## Getting Started
-
-Follow these steps to get started with this project:
 
 1. Clone the repository:
 
@@ -26,7 +24,7 @@ Follow these steps to get started with this project:
     cd lunar-lander-RL-DeepQ
     ```
 
-2. Install the required dependencies. You can use a virtual environment if desired:
+2. Install dependencies:
 
     ```bash
     pip3 install -r requirements.txt
@@ -38,24 +36,21 @@ Follow these steps to get started with this project:
 - OpenAI Gym
 - NumPy
 - TensorFlow (or compatible version)
-- Other required libraries specified in `requirements.txt`
+- Libraries in `requirements.txt`
 
 ## Usage
 
-1. Open `Lunar_Lander` using Jupyter Notebook.
-2. Run the notebook cells to train the Deep Q-Learning agent and observe its performance in the Lunar Lander environment.
+1. Open `Lunar_Lander` in Jupyter Notebook.
+2. Run the cells to train the Deep Q-Learning agent and view its performance.
 
 ## Results
 
-The trained agent demonstrates successful landings in the Lunar Lander environment. You can view a video of the agent's performance in the `Trained Agent` directory.
+The trained agent successfully lands in the Lunar Lander environment. See the `Trained Agent` directory for a video.
 
 ## Episode vs Total Points
 
-To track the agent's performance during training, we plot the total points accumulated in each episode. The diagram below illustrates the relationship between episodes and the total points scored, providing insights into how the agent's performance improves over time.
+The graph below shows how the agent’s performance improves over time, with total points increasing as it masters the environment.
 
 ![Episode vs Total Points](totalpoints.png)
 
-- This graph demonstrates how the agent's performance evolves as it learns, with total points gradually increasing as the agent masters the environment.
-
 > ![Trained Agent](Lunar_Lander.gif)
-
