@@ -2,6 +2,9 @@
 
 This repository implements a Deep Q-Learning agent to solve the Lunar Lander environment from OpenAI Gym.
 
+> ![Trained Agent](Lunar_Lander.gif)
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -53,5 +56,5 @@ The graph below shows how the agent’s performance improves over time, with tot
 
 ![Episode vs Total Points](totalpoints.png)
 
-> ![Trained Agent](Lunar_Lander.gif)
+
 ****
