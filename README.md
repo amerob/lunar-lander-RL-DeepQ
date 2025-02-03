@@ -33,18 +33,12 @@ The goal is to train an agent to safely land a spacecraft on the moon using Deep
     pip3 install -r requirements.txt
     ```
 
-## Requirements
-
-- Python 3.7+
-- OpenAI Gym
-- NumPy
-- TensorFlow (or compatible version)
-- Libraries in `requirements.txt`
-
 ## Usage
 
 1. Open `Lunar_Lander` in Jupyter Notebook.
 2. Run the cells to train the Deep Q-Learning agent and view its performance.
+
+****
 
 ## Results
 
@@ -57,4 +51,3 @@ The graph below shows how the agent’s performance improves over time, with tot
 ![Episode vs Total Points](totalpoints.png)
 
 
-****
